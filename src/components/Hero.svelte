@@ -7,7 +7,7 @@
 
 <div class="hero" style="background: {accentColor}">
 	<div class="container p-5">
-		<div class="flex-col flex-col-reverse md:flex-row flex items-center gap-10">
+		<div class="flex-col-reverse md:flex-row flex items-center gap-10">
 			<div>
 				<h1 class="text-5xl font-bold text-white">{title}</h1>
 				<p class="py-6">

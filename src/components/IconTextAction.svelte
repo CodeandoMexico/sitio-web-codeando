@@ -4,18 +4,25 @@
 	export let description =
 		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.';
 	export let action = 'https://google.com';
-	export let action_label = 'Ver más';
+	export let action_label = ' Hablemos';
 </script>
 
-<div class="space-y-2">
-	<img src={icon} alt="Icon" class="" />
 
-	<h2 class="text-2xl font-bold">{title}</h2>
-	<p class=" max-w-[300px]">
-		{description}
-	</p>
 
-	<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-		{action_label}
-	</button>
-</div>
+
+
+	<div class="space-y-2">
+		<img src={icon} alt="Icon" class="" />
+	
+		<h2 class="text-2xl font-bold">{title}</h2>
+		<p class=" max-w-[300px]">
+			{description}
+		</p>
+	
+	
+		<button class="Button w-[137px] h-12 px-6 py-2 bg-[#00D690] rounded-3xl justify-center items-center inline-flex">
+			<span class="Button text-black text-base font-['Albert Sans'] uppercase leading-normal">	{action_label}</span>
+		</button>
+	
+		
+	</div>
