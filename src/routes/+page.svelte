@@ -1,11 +1,12 @@
 <script>
 	import Hero from '@/components/Hero.svelte';
 	import ShadowImage from '@/components/ShadowImage.svelte';
+	import ShadowImageCard from '@/components/Cards/ShadowImageCard.svelte';
 	import TitleDescription from '@/components/TitleDescription.svelte';
 	import IconTextAction from '@/components/IconTextAction.svelte';
-	import ContentCard from '@/components/ContentCard.svelte';
+	import ContentCard from '@/components/Cards/ContentCard.svelte';
 	import SubscribeBox from '@/components/SubscribeBox.svelte';
-	import Footer from '@/components/Footer.svelte';
+
 </script>
 
 <Hero />
@@ -48,7 +49,17 @@
 </div>
 
 
+<div class="container m-auto">
+	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
+		<ShadowImageCard />
+	
+	</div>
+</div>
+
+<Hero accentColor='#0073F4'
+title="Acerca de "
+	subtitle="Somos una organización sin fines de lucro, basada en una comunidad abierta."
+/>
 
 
 
-<Footer />

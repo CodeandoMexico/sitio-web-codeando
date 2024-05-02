@@ -28,5 +28,9 @@
 		"typescript": "^5.3.3",
 		"vite": "^5.0.11"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"classnames": "^2.5.1",
+		"font-color-contrast": "^11.1.0"
+	}
 }
