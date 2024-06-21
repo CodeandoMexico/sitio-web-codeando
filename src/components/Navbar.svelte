@@ -1,4 +1,4 @@
-<nav class="w-full absolute py-5">
+<nav class="w-full absolute py-5 hidden md:block">
   <div class="flex container m-auto items-center  px-5">
     <a href="/">
 

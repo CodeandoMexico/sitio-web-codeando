@@ -28,12 +28,12 @@
 	</div>
 </section>
 	
-<section id="en-que-estamos-trabajando">
+<section id="en-que-estamos-trabajando" class="p-8">
 	<div class="text-center">
 		<TitleDescription title="En qué estamos trabajando" description="Todos nuestros proyectos son open source, esto significa que cualquiera es libre de utilizar el código, datos y otros materiales de acuerdo a la licencia que contenga." />
 	</div>
 	
-	<div class="grid grid-cols-3 container m-auto gap-5">
+	<div class="flex flex-col md:flex-row columns-3 container m-auto gap-5">
 		<ContentCard/>
 		<ContentCard/>
 		<ContentCard/>
@@ -49,12 +49,12 @@
 	<SubscribeBox />
 </div>
 
-<section id="blog">
+<section id="blog" class="p-8">
 	<div class="text-center my-8">
 		<TitleDescription title="Blog" />
 	</div>
 	
-	<div class="grid grid-cols-3 container my-8 mx-auto gap-5">
+	<div class="flex flex-col md:flex-row columns-3 container my-8 mx-auto gap-5">
 		<ArticleCard/>
 		<ArticleCard/>
 		<ArticleCard/>
