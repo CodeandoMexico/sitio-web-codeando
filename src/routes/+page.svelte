@@ -7,6 +7,7 @@
 	import ContentCard from '@/components/Cards/ContentCard.svelte';
 	import SubscribeBox from '@/components/SubscribeBox.svelte';
 	import ArticleCard from '@/components/Cards/ArticleCard.svelte';
+	import Button from '@/components/Button.svelte';
 </script>
 
 <Hero />
@@ -14,7 +15,7 @@
 <div class="container px-5 mx-auto">
 	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
 		<ShadowImage />
-		<TitleDescription />
+		<TitleDescription title="Trabajamos de manera abierta y colaborativa" description="con gobiernos, activistas, periodistas, diseñadoras, desarrolladoras y más. Nos enfocamos en la parte tecnológica que acompaña al impacto cívico y social." />
 	</div>
 </div>
 
@@ -49,4 +50,8 @@
 	<ArticleCard/>
 	<ArticleCard/>
 	<ArticleCard/>
+</div>
+
+<div class="text-center m-auto">
+	<Button action="http://blog.codeandomexico.org/" action_label="Ir al blog" />
 </div>
