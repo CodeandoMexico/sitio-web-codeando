@@ -27,15 +27,21 @@
 	</div>
 </div>
 
-<div class="text-center">
-	<TitleDescription title="Tecnología cívica y datos para mejorar lo público" description="Generamos nuevas formas de participación ciudadana, abrimos conocimiento e innovamos en el espacio público a través de la tecnología." />
-</div>
+<section id="en-que-estamos-trabajando" class="my-8 py-8">
+	<div class="text-center">
+		<TitleDescription title="En qué estamos trabajando" description="Todos nuestros proyectos son open source, esto significa que cualquiera es libre de utilizar el código, datos y otros materiales de acuerdo a la licencia que contenga." />
+	</div>
+	
+	<div class="grid grid-cols-3 container m-auto gap-5">
+		<ContentCard/>
+		<ContentCard/>
+		<ContentCard/>
+	</div>
+	<div class="text-center my-8">
+		<Button action="/proyectos" action_label="Ver todos los proyectos" />
+	</div>
+</section>
 
-<div class="grid grid-cols-3 container m-auto gap-5">
-	<ContentCard/>
-	<ContentCard/>
-	<ContentCard/>
-</div>
 
 
 <div class="p-10 m-auto">
