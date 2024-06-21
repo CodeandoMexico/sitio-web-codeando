@@ -47,19 +47,3 @@
 <div class="p-10 m-auto">
 	<SubscribeBox />
 </div>
-
-
-<div class="container m-auto">
-	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
-		<ShadowImageCard />
-	
-	</div>
-</div>
-
-<Hero accentColor='#0073F4'
-title="Acerca de "
-	subtitle="Somos una organización sin fines de lucro, basada en una comunidad abierta."
-/>
-
-
-
