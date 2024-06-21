@@ -14,7 +14,7 @@
 </script>
 
 <div class="hero" style="background: {accentColor}">
-	<div class="container p-5">
+	<div class="container px-5 py-28">
 		<div class="flex-col-reverse md:flex-row flex items-center gap-10">
 			<div 	>
 				<h1 class="text-5xl font-bold text-white">{title}</h1>
