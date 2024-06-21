@@ -6,7 +6,7 @@
 	import IconTextAction from '@/components/IconTextAction.svelte';
 	import ContentCard from '@/components/Cards/ContentCard.svelte';
 	import SubscribeBox from '@/components/SubscribeBox.svelte';
-
+	import ArticleCard from '@/components/Cards/ArticleCard.svelte';
 </script>
 
 <Hero />
@@ -26,15 +26,8 @@
 	</div>
 </div>
 
-<div class="grid grid-cols-3 container m-auto gap-5">
-	<ContentCard/>
-	<ContentCard/>
-	<ContentCard/>
-</div>
-
-
 <div class="text-center">
-	<TitleDescription />
+	<TitleDescription title="Tecnología cívica y datos para mejorar lo público" description="Generamos nuevas formas de participación ciudadana, abrimos conocimiento e innovamos en el espacio público a través de la tecnología." />
 </div>
 
 <div class="grid grid-cols-3 container m-auto gap-5">
@@ -46,4 +39,14 @@
 
 <div class="p-10 m-auto">
 	<SubscribeBox />
+</div>
+
+<div class="text-center my-8">
+	<TitleDescription title="Blog" />
+</div>
+
+<div class="grid grid-cols-3 container my-8 mx-auto gap-5">
+	<ArticleCard/>
+	<ArticleCard/>
+	<ArticleCard/>
 </div>
