@@ -14,18 +14,18 @@
 </script>
 
 <div class="hero" style="background: {accentColor}">
-	<div class="container p-5">
-		<div class="flex-col-reverse md:flex-row flex items-center gap-10">
-			<div 	>
-				<h1 class="text-5xl font-bold text-white">{title}</h1>
-				<p class="py-6" 
+	<div class="container px-5 py-28">
+		<div class="flex-col-reverse md:flex-row flex items-center gap-10 columns-2">
+			<div class="md:w-1/2 md:p-5">
+				<h1 class="text-6xl font-bold text-white leading-tight">{title}</h1>
+				<p class="md:py-6 text-lg leading-loose" 
 				style={`color: ${contrastedColor}`}
 				>
 					{subtitle}
 				</p>
 			</div>
-			<div class="flex justify-end">
-				<img src="/example.png" alt="Hero" />
+			<div class="flex justify-start md:w-1/2 p-5">
+				<img src="/example.png" alt="Hero" class="md:w-10/12" />
 			</div>
 		</div>
 	</div>

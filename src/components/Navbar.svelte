@@ -1,4 +1,4 @@
-<nav class="w-full absolute py-3">
+<nav class="w-full absolute py-5 hidden md:block">
   <div class="flex container m-auto items-center  px-5">
     <a href="/">
 
@@ -6,11 +6,11 @@
     </a>
   <div class="flex-grow"></div>
   <ul class="flex gap-5">
-      <li><a class="hover:underline hover:gray-800" href="/">Acerca de</a></li>
-      <li><a class="hover:underline hover:gray-800" href="/proyectos">Proyectos</a></li>
-      <li><a class="hover:underline hover:gray-800" href="/comunidad">Comunidad</a></li>
-      <li><a class="hover:underline hover:gray-800" href="/recursos">Recursos</a></li>
-      <li><a class="hover:underline hover:gray-800" href="/blog">Blog</a></li>
+      <li><a class="hover:underline hover:gray-800 uppercase font-bold" href="/">Acerca de</a></li>
+      <li><a class="hover:underline hover:gray-800 uppercase font-bold" href="/proyectos">Proyectos</a></li>
+      <li><a class="hover:underline hover:gray-800 uppercase font-bold" href="/comunidad">Comunidad</a></li>
+      <li><a class="hover:underline hover:gray-800 uppercase font-bold" href="/recursos">Recursos</a></li>
+      <li><a class="hover:underline hover:gray-800 uppercase font-bold" href="/blog">Blog</a></li>
   </ul>
 
   </div>
