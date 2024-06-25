@@ -5,3 +5,26 @@
 section {
   margin: 6rem auto;
 }
+
+body {
+  color: #030303;
+  font-weight: 400;
+  font-family: 'Albert-Sans';
+}
+
+@font-face {
+  font-family: 'Albert-Sans';
+  font-style: normal;
+  src: url('/AlbertSans-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Albert-Sans';
+  font-style: italic;
+  src: url('/AlbertSans-Italic-VariableFont_wght.ttf'); /* IE9 Compat Modes */
+}
+
+.text-black {
+  color: #030303;
+}
+
