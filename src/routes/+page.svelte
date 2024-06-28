@@ -12,7 +12,7 @@
 
 <Hero />
 
-<div class="container px-5 mx-auto">
+<div id="quienes-somos" class="container px-5 mx-auto">
 	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
 		<ShadowImage />
 		<TitleDescription title="Trabajamos de manera abierta y colaborativa" description="con gobiernos, activistas, periodistas, diseñadoras, desarrolladoras y más. Nos enfocamos en la parte tecnológica que acompaña al impacto cívico y social." />
@@ -33,7 +33,7 @@
 		<TitleDescription title="En qué estamos trabajando" description="Todos nuestros proyectos son open source, esto significa que cualquiera es libre de utilizar el código, datos y otros materiales de acuerdo a la licencia que contenga." />
 	</div>
 	
-	<div class="flex flex-col md:flex-row columns-3 container m-auto gap-5">
+	<div id="nuestros-proyectos" class="flex flex-col md:flex-row columns-3 container m-auto gap-5">
 		<ContentCard/>
 		<ContentCard/>
 		<ContentCard/>
@@ -45,7 +45,7 @@
 
 
 
-<div class="p-10 m-auto">
+<div id="suscribete" class="p-10 m-auto">
 	<SubscribeBox />
 </div>
 

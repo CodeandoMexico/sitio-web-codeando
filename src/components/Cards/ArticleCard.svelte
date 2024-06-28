@@ -11,7 +11,7 @@
     <div class="flex">
       <Badge/>
     </div>
-    <h3 class="font-bold text-lg">A 10 años de Codeando México</h3>
+    <h2 class="font-extrabold text-xl">A 10 años de Codeando México</h2>
     <p class="text-sm">Alma Rangel Macías</p>
     <p class="text-sm text-gray-400">Jul 27 2023</p>
   </div>
