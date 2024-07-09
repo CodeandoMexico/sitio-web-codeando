@@ -4,7 +4,8 @@
 	export let title = 'Tecnología cívica y datos para mejorar lo público';
 	export let subtitle =
 		'Generamos nuevas formas de participación ciudadana, abrimos conocimiento e innovamos en el espacio público a través de la tecnología.';
-
+	export let image = "/example.png";
+	
 	let contrastedColor = '';
 
 	onMount(async () => {
@@ -25,7 +26,7 @@
 				</p>
 			</div>
 			<div class="flex justify-start md:w-1/2 p-5">
-				<img src="/example.png" alt="Hero" class="md:w-10/12" />
+				<img src="{image}" alt="Hero" class="md:w-10/12" />
 			</div>
 		</div>
 	</div>
