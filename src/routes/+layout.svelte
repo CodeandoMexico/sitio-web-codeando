@@ -7,7 +7,6 @@
 <Navbar />
 
 <slot />
-<div class="mt-20">
 
-	<Footer />
-</div>
+
+<Footer />

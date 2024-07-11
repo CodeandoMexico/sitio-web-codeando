@@ -1,6 +1,6 @@
-<div class="Footer w-full min-h-52 bg-black p-7 flex justify-center items-center">
+<footer class="Footer w-full min-h-52 bg-black p-7 flex justify-center items-center mt-auto">
   <div class="Footer flex w-full h-full container justify-between gap-5 items-center flex-col md:flex-row">
-      <img class="Image1 mix-blend-screen" src="/logo-blanco.png" />
+      <img class="Image1 mix-blend-screen" src="/logo-blanco.png" alt="Logo de Codeando"/>
       <div class="Frame30 flex-col justify-start items-center gap-4 inline-flex">
           <div class="HechoConPorLaComunidad text-neutral-50 text-sm font-normal font-['Albert Sans'] leading-[21px]">Hecho con ❤️ por <s>Hans y @basicavisual</s> la comunidad</div>
       </div>
@@ -13,5 +13,5 @@
           <div class="HolaCodeandomexicoOrg text-neutral-50 text-sm font-normal font-['Albert Sans'] leading-[21px]">hola@codeandomexico.org</div>
       </div>
   </div>
-</div>
+</footer>
 

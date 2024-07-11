@@ -19,7 +19,7 @@
 	</div>
 </div>
 
-<section id="con-quien-trabajamos" class="bg-[#E6F8EE] py-8">
+<section id="con-quien-trabajamos" class="bg-[#E6F8EE] py-8 w-full">
 	<div class="container m-auto">
 		<div class="flex flex-col md:flex-row my-10 gap-20 p-10 justify-center">
 			<IconTextAction icon="/who_1.png" title="Organizaciones" description="Construimos herramientas digitales, abrimos conocimiento y acompañamos a equipos técnicos y no técnicos." action="/organizaciones" action_label="Hablemos"/>
