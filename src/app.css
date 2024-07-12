@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-section {
-  margin: 6rem auto;
-}
 
 body {
   color: #030303;

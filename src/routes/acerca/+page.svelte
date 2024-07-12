@@ -5,7 +5,7 @@
 
 <Hero accentColor="#0073F4" title="Acerca de" subtitle="Somos una organización sin fines de lucro, basada en una comunidad abierta." image="/acerca.png"/>
 
-<section id="colaboramos" class="container p-3">
+<section id="colaboramos" class="container p-3 mx-auto my-10">
   <div class="md:w-2/3 m-auto">    
     <p class="my-4">Durante los últimos 10 años hemos colaborado con gobiernos, asociaciones civiles, periodistas, empresas y voluntarias para fortalecer el trabajo e impacto de personas, equipos e instituciones que inciden en el espacio público con proyectos de tecnología y datos útiles, accesibles y sustentables.</p>
     <p class="my-4">Construimos en conjunto y de manera abierta. Las personas, no las herramientas, son la parte más importante del proceso. Todos nuestros proyectos tienen un componente de comunidad, apertura de conocimiento y constante iteración.</p>
