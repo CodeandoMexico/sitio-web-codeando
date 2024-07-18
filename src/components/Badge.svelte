@@ -1,7 +1,7 @@
 <script>
   	import { onMount } from 'svelte';
-export let text = 'Badge';
-export let color = '#0073F4';
+    export let text = 'Badge';
+    export let color = '#0073F4';
 
 
 let contrastedColor = '';
@@ -13,7 +13,7 @@ onMount(async () => {
 </script>
 
 
-<span class="rounded-full px-5 py-1 text-xs "
+<span class="rounded-full px-3 py-1 text-xs "
   style={
     `background-color: ${color};
     color: ${contrastedColor}`

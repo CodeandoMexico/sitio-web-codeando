@@ -12,14 +12,14 @@
 
 <Hero />
 
-<div id="quienes-somos" class="container px-5 mx-auto">
+<div id="quienes-somos" class="container px-5 mx-auto my-8">
 	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
 		<ShadowImage />
 		<TitleDescription title="Trabajamos de manera abierta y colaborativa" description="con gobiernos, activistas, periodistas, diseñadoras, desarrolladoras y más. Nos enfocamos en la parte tecnológica que acompaña al impacto cívico y social." />
 	</div>
 </div>
 
-<section id="con-quien-trabajamos" class="bg-[#E6F8EE] py-8 w-full">
+<section id="con-quien-trabajamos" class="bg-[#E6F8EE] py-8 w-full mx-auto my-8">
 	<div class="container m-auto">
 		<div class="flex flex-col md:flex-row my-10 gap-20 p-10 justify-center">
 			<IconTextAction icon="/who_1.png" title="Organizaciones" description="Construimos herramientas digitales, abrimos conocimiento y acompañamos a equipos técnicos y no técnicos." action="/organizaciones" action_label="Hablemos"/>
@@ -28,7 +28,7 @@
 	</div>
 </section>
 	
-<section id="en-que-estamos-trabajando" class="p-8">
+<section id="en-que-estamos-trabajando" class="p-8 mx-auto my-8">
 	<div class="text-center">
 		<TitleDescription title="En qué estamos trabajando" description="Todos nuestros proyectos son open source, esto significa que cualquiera es libre de utilizar el código, datos y otros materiales de acuerdo a la licencia que contenga." />
 	</div>
@@ -43,13 +43,11 @@
 	</div>
 </section>
 
+<section id="suscribete" class="p-5 md:p-10 mx-auto my-8">
+	<SubscribeBox color="#F1B6B8" text="¿Quieres mantenerte al tanto? Suscríbete a nuestro newsletter" subscribeForm="true" />
+</section>
 
-
-<div id="suscribete" class="p-10 m-auto">
-	<SubscribeBox />
-</div>
-
-<section id="blog" class="p-8">
+<section id="blog" class="p-8 mx-auto my-8">
 	<div class="text-center my-8">
 		<TitleDescription title="Blog" />
 	</div>
