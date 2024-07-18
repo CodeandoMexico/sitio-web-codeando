@@ -4,7 +4,7 @@
 
 
 <div class="Card w-full min-h-[519px] flex-col justify-start items-start inline-flex">
-  <img class="Image4 self-stretch h-[250px] w-full" src="https://placehold.co/457x200" />
+  <img class="Image4 self-stretch h-[200px] w-full" src="https://placehold.co/457x200" />
   <div class="Frame5 self-stretch min-h-[269px] h-full flex-col justify-start pt-3 items-start gap-4 flex">
     <div class="Heading self-stretch min-h-[41px] flex-col justify-end items-start gap-8 flex">
       <div class="Heading self-stretch text-black text-[31.25px] font-bold font-['Albert Sans'] leading-10">
@@ -28,10 +28,10 @@
       <Badge text="Plataforma opensource" color="#F2D301"/>
     </div>
     <div class="flex gap-3 my-2">
-      <a href="#" target="_blank" class="border-2 border-black uppercase text-bold bg-black text-white px-5 py-2">
+      <a href="#" target="_blank" class="border-2 border-black uppercase font-bold bg-black text-white px-5 py-2 hover:bg-gray-700 transition duration-300 ease-in-out">
         Sitio web
       </a>
-      <a href="#" target="_blank" class="border-2 border-black uppercase text-bold bg-white text-black px-5 py-2">
+      <a href="#" target="_blank" class="border-2 border-black uppercase font-bold bg-white text-black px-5 py-2 hover:bg-gray-200 transition duration-300 ease-in-out">
         Repositorio
       </a>
     </div>

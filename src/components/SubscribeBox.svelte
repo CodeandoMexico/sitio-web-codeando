@@ -4,21 +4,23 @@
 	export let subscribeForm;
 </script>
 
-<div class="bg-[url('/grid-bg.png')] md:h-[500px] md:p-10 h-auto w-full container m-auto flex items-center drop-shadow-full" style="background-color: {color};">
-	<div class="Frame52 w-full  flex-col justify-end items-center gap-8 inline-flex">
-		<div class="text-center text-black text-5xl font-bold font-['Albert Sans'] leading-[63.44px]">
-			{@html text}
+<div class="bg-[url('/grid-bg.png')] min-h-[350px] p-2 md:p-10 h-auto w-full container m-auto flex items-center drop-shadow-full" style="background-color: {color};">
+	<div class="Frame52 w-full flex-col justify-center items-center md:p-5">
+		<div class="text-center text-black text-2xl md:text-5xl font-bold font-['Albert Sans'] md:leading-[63.44px] md:p-5 text-wrap">
+			<p>
+				{@html text}
+			</p>
 		</div>
 		{#if subscribeForm }
-			<div class="Frame11 justify-between items-center inline-flex p-5">
-				<div class="Input grow shrink basis-0 h-12 px-4 py-3 bg-neutral-50 rounded-tl-3xl rounded-bl-3xl border border-zinc-300 justify-start items-center flex">
-					<input type="text" class="Email w-full grow shrink basis-0 text-black text-lg font-normal font-['Albert Sans'] leading-[27px]" />
-				</div>
-				<div class="Button px-5 py-2 bg-black rounded-tr-3xl h-12 rounded-br-3xl justify-center items-center gap-2 flex">
-					<div class="Column justify-start items-center gap-2 flex">
-						<div class="Button text-neutral-50 text-base font-bold font-['Albert Sans'] uppercase leading-normal">Suscribirme</div>
+			<div class="flex justify-center mx-auto my-3">
+				<form class="w-full max-w-sm">
+					<div class="flex items-center">
+						<input class="appearance-none border-none w-full text-gray-700 px-4 py-3 rounded-tl-3xl rounded-bl-3xl border border-zinc-300 leading-tight focus:outline-none" type="text" placeholder="correo@ejemplo.org" aria-label="Full name">
+						<button class="flex-shrink-0 px-5 py-2 bg-black rounded-tr-3xl h-11 rounded-br-3xl text-sm border border-black text-white rounded text-base font-bold font-['Albert Sans'] uppercase leading-normal" type="button">
+							Suscribirme
+						</button>
 					</div>
-				</div>
+				</form>
 			</div>
 		{/if }
 	</div>

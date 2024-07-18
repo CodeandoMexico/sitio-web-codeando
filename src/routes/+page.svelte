@@ -42,12 +42,10 @@
 		<Button action="/proyectos" action_label="Ver todos los proyectos" />
 	</div>
 </section>
--
 
-
-<div id="suscribete" class="p-10 mx-auto my-8">
+<section id="suscribete" class="p-5 md:p-10 mx-auto my-8">
 	<SubscribeBox color="#F1B6B8" text="¿Quieres mantenerte al tanto? Suscríbete a nuestro newsletter" subscribeForm="true" />
-</div>
+</section>
 
 <section id="blog" class="p-8 mx-auto my-8">
 	<div class="text-center my-8">
