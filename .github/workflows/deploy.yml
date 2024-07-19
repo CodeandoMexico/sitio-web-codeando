@@ -4,8 +4,6 @@ on: workflow_dispatch
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    env:
-      BASE_PATH: ${{ vars.BASE_PATH }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -45,7 +43,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
+          BASE_PATH: ${{ vars.BASE_PATH }}
         run: |
           pnpm run build
 
