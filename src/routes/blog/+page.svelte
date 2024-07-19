@@ -13,7 +13,7 @@
     slug={blog.highlight_post.slug}
     title={blog.highlight_post.title}
     tag={blog.highlight_post.tags[0]}
-    date={blog.highlight_post.date_created}
+    date={new Date(blog.highlight_post.date_created).toLocaleString('es-MX')}
     image={`https://content.codeandomexico.org/assets/${blog.highlight_post.post_image}`}
   />
 </div>
