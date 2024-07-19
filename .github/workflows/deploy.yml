@@ -44,6 +44,7 @@ jobs:
       - name: build
         env:
           BASE_PATH: ${{ vars.BASE_PATH }}
+          DIRECTUS_TOKEN: ${{ vars.DIRECTUS_TOKEN }}
         run: |
           pnpm run build
 
