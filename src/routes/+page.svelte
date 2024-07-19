@@ -8,9 +8,14 @@
 	import SubscribeBox from '@/components/SubscribeBox.svelte';
 	import ArticleCard from '@/components/Cards/ArticleCard.svelte';
 	import Button from '@/components/Button.svelte';
+	export let data
+  const { home, posts } = data
 </script>
 
-<Hero />
+<Hero 
+	title={home.hero_title}
+	subtitle={home.hero_subtitle}
+/>
 
 <div id="quienes-somos" class="container px-5 mx-auto my-8">
 	<div class="flex-col md:flex-row flex my-10 gap-20 items-center">
@@ -53,9 +58,16 @@
 	</div>
 	
 	<div class="flex flex-col md:flex-row columns-3 container my-8 mx-auto gap-5">
-		<ArticleCard/>
-		<ArticleCard/>
-		<ArticleCard/>
+		{#each posts as post}
+		<ArticleCard
+			slug={post.slug}
+			title={post.title}
+			tag={post.tags[0]}
+			author={post.user_created.first_name + ' ' + post.user_created.last_name}
+			date={new Date(post.date_created).toLocaleString('es-MX')}
+			image={`https://content.codeandomexico.org/assets/${post.post_image}`}
+		/>
+	{/each}
 	</div>
 	
 	<div class="text-center m-auto">
