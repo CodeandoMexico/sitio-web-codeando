@@ -3,7 +3,7 @@
 	export let accentColor = '#00D690';
 	export let title = 'Tecnología cívica y datos para mejorar lo público';
 	export let subtitle =
-		'Generamos nuevas formas de participación ciudadana, abrimos conocimiento e innovamos en el espacio público a través de la tecnología.';
+		'';
 	export let image = "/example.png";
 	
 	let contrastedColor = '';
