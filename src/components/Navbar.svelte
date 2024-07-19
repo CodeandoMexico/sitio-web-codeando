@@ -14,7 +14,7 @@
     {name: "Blog", url: "/blog"},
     ];
 </script>
-<nav class="w-full absolute py-5">
+<nav class="w-full  py-5">
   <div class="flex container m-auto items-center  px-5">
     <a href="/">
       <span class="sr-only">Codeando México</span>
