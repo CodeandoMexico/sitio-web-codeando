@@ -43,7 +43,7 @@
 		<ProjectCard
 			title={project.title}
 			description={project.short_description}
-			tags={project.tags}
+			tags={project.tags || []}
 			image={`https://content.codeandomexico.org/assets/${project.image}`}
 			website={project.website}
 			repository={project.repository}
