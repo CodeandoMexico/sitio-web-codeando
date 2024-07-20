@@ -43,6 +43,7 @@
         tags={project.tags || []}
         image={`https://content.codeandomexico.org/assets/${project.image}`}
         website={project.website}
+        maker={project.maker}
         repository={project.repository}
       />
     {/each}
