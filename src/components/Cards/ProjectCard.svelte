@@ -5,7 +5,8 @@
   export let image;
   export let website;
   export let repository;
-  export let tags;
+  export let tags = [];
+  export let maker = "";
 </script>
 
 
@@ -26,7 +27,9 @@
       <div class="ConoceMS text-black text-base font-bold font-['Albert Sans'] leading-normal">
         {website}
       </div>
-      <div class="ExternalLink w-6 h-6 relative"></div>
+    </div>
+    <div>
+      <p>{maker}</p>
     </div>
     <div class="flex flex-wrap gap-2">
 
