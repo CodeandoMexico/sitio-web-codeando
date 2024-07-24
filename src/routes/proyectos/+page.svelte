@@ -4,6 +4,8 @@
   import SubscribeBox from '@/components/SubscribeBox.svelte';
   import Badge from '@/components/Badge.svelte';
 	import ProjectCard from '@/components/Cards/ProjectCard.svelte';
+  export let data
+  const { projects } = data
 </script>
 
 <Hero title="Proyectos" subtitle="Colaboramos desde el diseño hasta la implementación de tecnología cívica." image="/proyectos.png"/>
@@ -25,16 +27,25 @@
 
 <section id="nuestros-proyectos" class="container mx-auto my-12 p-3">
   <h1 class="text-4xl font-bold my-3">Conoce nuestros proyectos</h1>
-  <div class="flex gap-4 my-6 flex-wrap">
+  <!-- TODO: Habilitar Badges -->
+  <!-- <div class="flex gap-4 my-6 flex-wrap">
     <Badge text="Movilidad" color="#F3F3F4"/>
     <Badge text="Educación" color="#F2D301"/>
     <Badge text="Legislativo" color="#F3F3F4"/>
     <Badge text="Datos abiertos" color="#F3F3F4"/>
     <Badge text="Código abierto" color="#F3F3F4"/>
-  </div>
+  </div> -->
   <div class="flex flex-col md:flex-row columns-3 container my-8 mx-auto gap-20">
-    <ProjectCard />
-    <ProjectCard />
-    <ProjectCard />
+    {#each projects as project}
+      <ProjectCard
+        title={project.title}
+        description={project.short_description}
+        tags={project.tags || []}
+        image={`https://content.codeandomexico.org/assets/${project.image}`}
+        website={project.website}
+        maker={project.maker}
+        repository={project.repository}
+      />
+    {/each}
   </div>
 </section>

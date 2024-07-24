@@ -9,12 +9,12 @@
   let menuItems = [
     {name: "Acerca de", url: '/acerca'},
     {name: "Proyectos", url: "/proyectos"},
-    {name: "Comunidad", url: "/comunidad"},
-    {name: "Recursos", url: "/recursos"},
+    // {name: "Comunidad", url: "/comunidad"},
+    // {name: "Recursos", url: "/recursos"},
     {name: "Blog", url: "/blog"},
     ];
 </script>
-<nav class="w-full absolute py-5">
+<nav class="w-full  py-5">
   <div class="flex container m-auto items-center  px-5">
     <a href="/">
       <span class="sr-only">Codeando México</span>

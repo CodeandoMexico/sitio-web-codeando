@@ -4,21 +4,18 @@ on: workflow_dispatch
 jobs:
   build_site:
     runs-on: ubuntu-latest
+    env:
+      BASE_PATH: ${{ vars.BASE_PATH }}
+      DIRECTUS_TOKEN: ${{ vars.DIRECTUS_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      # If you're using pnpm, add this step then change the commands and cache key below to use `pnpm`
-      # - name: Install pnpm
-      #   uses: pnpm/action-setup@v3
-      #   with:
-      #     version: 8
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
           version: 9
@@ -29,7 +26,7 @@ jobs:
         run: |
           echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         name: Setup pnpm cache
         with:
           path: ${{ env.STORE_PATH }}
@@ -42,8 +39,6 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: build
-        env:
-          BASE_PATH: ${{ vars.BASE_PATH }}
         run: |
           pnpm run build
 
