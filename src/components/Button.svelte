@@ -1,6 +1,5 @@
 <script>
 	import { onMount } from 'svelte';
-	export let action;
 	export let action_label;
 	export let color = "#00D690";
 	let contrastedColor = '';
