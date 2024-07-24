@@ -30,7 +30,7 @@
   <!-- TODO: Habilitar Badges -->
   <!-- <div class="flex gap-4 my-6 flex-wrap">
     <Badge text="Movilidad" color="#F3F3F4"/>
-    <Badge text="Educación" color="#F3F3F4"/>
+    <Badge text="Educación" color="#F2D301"/>
     <Badge text="Legislativo" color="#F3F3F4"/>
     <Badge text="Datos abiertos" color="#F3F3F4"/>
     <Badge text="Código abierto" color="#F3F3F4"/>
