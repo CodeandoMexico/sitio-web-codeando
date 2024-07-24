@@ -4,12 +4,12 @@
 	import ShadowImageCard from '@/components/Cards/ShadowImageCard.svelte';
 	import TitleDescription from '@/components/TitleDescription.svelte';
 	import IconTextAction from '@/components/IconTextAction.svelte';
-	import ContentCard from '@/components/Cards/ContentCard.svelte';
+	import ProjectCard from '@/components/Cards/ProjectCard.svelte';
 	import SubscribeBox from '@/components/SubscribeBox.svelte';
 	import ArticleCard from '@/components/Cards/ArticleCard.svelte';
 	import Button from '@/components/Button.svelte';
 	export let data
-  const { home, posts } = data
+  const { home, posts, projects } = data
 </script>
 
 <Hero 
@@ -38,13 +38,25 @@
 		<TitleDescription title="En qué estamos trabajando" description="Todos nuestros proyectos son open source, esto significa que cualquiera es libre de utilizar el código, datos y otros materiales de acuerdo a la licencia que contenga." />
 	</div>
 	
-	<div id="nuestros-proyectos" class="flex flex-col md:flex-row columns-3 container m-auto gap-5">
-		<ContentCard/>
-		<ContentCard/>
-		<ContentCard/>
+	<div id="nuestros-proyectos" class="md:grid grid-cols-3  container m-auto gap-5">
+		{#each projects as project}
+		<ProjectCard
+			title={project.title}
+			description={project.short_description}
+			tags={project.tags || []}
+			image={`https://content.codeandomexico.org/assets/${project.image}`}
+			website={project.website}
+			maker={project.maker}
+			repository={project.repository}
+		/>
+	{/each}
+
 	</div>
 	<div class="text-center my-8">
-		<Button action="/proyectos" action_label="Ver todos los proyectos" />
+		<a href="/proyectos" >	
+			<Button  action_label="Ver todos los proyectos" />
+		</a>
+		
 	</div>
 </section>
 
@@ -71,6 +83,8 @@
 	</div>
 	
 	<div class="text-center m-auto">
-		<Button action="http://blog.codeandomexico.org/" action_label="Ir al blog" />
+		<a href="/blog">
+		<Button action_label="Ir al blog" />
+	</a>
 	</div>
 </section>

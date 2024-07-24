@@ -9,6 +9,11 @@ export async function load() {
   // get and sort posts
   const posts = await client.request(readItems('Blog_Posts', {
     fields: ['*', "user_created.*"],
+    filter: {
+			status: {
+        _eq: "published"
+      }
+		}
   }))
 
 	return {

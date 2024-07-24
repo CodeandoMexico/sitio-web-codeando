@@ -1,5 +1,4 @@
 <script>
-	export let action;
 	export let action_label;
 </script>
 
