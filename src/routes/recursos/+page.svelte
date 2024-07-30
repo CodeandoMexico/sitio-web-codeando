@@ -1,6 +1,9 @@
 <script>
   import Hero from "@/components/Hero.svelte";
   import RecursosCard from "@/components/Cards/RecursosCard.svelte";
+  export let data
+  const { recursos } = data
+  console.log(recursos)
   let conocimiento = [
             {
               "name": "Curso de datos abiertos y hacking cívico", 
