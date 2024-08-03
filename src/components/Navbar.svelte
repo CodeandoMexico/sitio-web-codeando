@@ -10,7 +10,7 @@
     {name: "Acerca de", url: '/acerca'},
     {name: "Proyectos", url: "/proyectos"},
     {name: "Comunidad", url: "/comunidad"},
-    // {name: "Recursos", url: "/recursos"},
+    {name: "Recursos", url: "/recursos"},
     {name: "Blog", url: "/blog"},
     ];
 </script>
