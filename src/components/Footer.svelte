@@ -3,43 +3,37 @@
 		class="Footer flex w-full h-full container justify-between gap-5 items-center flex-col md:flex-row"
 	>
 		<img
-			class="Image1 mix-blend-screen"
 			src="/img/logo-cmx-blanco.svg"
 			style="height: 44px;"
 			alt="Codeando México"
 		/>
-		<div class="Frame30 flex-col justify-start items-center gap-4 inline-flex">
-			<div class="HechoConPorLaComunidad text-neutral-50 text-sm font-normal leading-[21px]">
-				Hecho con ❤️ por la comunidad
+
+		<p class="text-neutral-50 text-sm">
+			Hecho con ❤️ por la comunidad
+		</p>
+
+		<div class="text-center">
+			<div class="flex justify-center items-center gap-4">
+				<a href="https://x.com/CodeandoMexico/" target="_blank" rel="noopener noreferrer"
+					class="rounded-full bg-neutral-50 p-2 transition ease-in duration-150 hover:bg-cmxgreen focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-cmxgreen focus:bg-cmxgreen"
+				>
+					<img src="/x.svg" alt="X (twitter)" srcset="" />
+				</a>
+				<a href="https://github.com/CodeandoMexico/" target="_blank" rel="noopener noreferrer"
+					class="rounded-full bg-neutral-50 p-2 transition ease-in duration-150 hover:bg-cmxgreen focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-cmxgreen focus:bg-cmxgreen"
+				>
+					<img src="/github.svg" alt="Github" srcset="" />
+				</a>
+			
+				<a href="https://codeandomexico.slack.com/" target="_blank" rel="noopener noreferrer"
+					class="rounded-full bg-neutral-50 p-2 transition ease-in duration-150 hover:bg-cmxgreen focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-cmxgreen focus:bg-cmxgreen"
+				>
+					<img src="/slack.svg" alt="Slack" srcset="" />
+				</a>
 			</div>
-		</div>
-		<div class="Frame7 flex-col justify-center items-start gap-2 inline-flex">
-			<div class="Frame31 self-stretch justify-center items-center gap-4 inline-flex">
-				<div
-					class="Frame8 p-2 bg-neutral-50 rounded-[45px] flex-col justify-start items-start gap-px inline-flex"
-				>
-					<a href="https://x.com/CodeandoMexico/" target="_blank" rel="noopener noreferrer"
-						><img src="/x.svg" alt="X (twitter)" srcset="" /></a
-					>
-				</div>
-				<div
-					class="Frame9 p-2 bg-neutral-50 rounded-[45px] flex-col justify-start items-start gap-px inline-flex"
-				>
-					<a href="https://github.com/CodeandoMexico/" target="_blank" rel="noopener noreferrer"
-						><img src="/github.svg" alt="Github" srcset="" /></a
-					>
-				</div>
-				<div
-					class="Frame10 p-2 bg-neutral-50 rounded-[45px] flex-col justify-start items-start gap-px inline-flex"
-				>
-					<a href="https://codeandomexico.slack.com/" target="_blank" rel="noopener noreferrer"
-						><img src="/slack.svg" alt="Slack" srcset="" /></a
-					>
-				</div>
-			</div>
-			<div class="HolaCodeandomexicoOrg text-neutral-50 text-sm font-normal leading-[21px]">
+			<p class="text-neutral-50 text-sm mt-2">
 				equipo@codeandomexico.org
-			</div>
+			</p>
 		</div>
 	</div>
 </footer>
