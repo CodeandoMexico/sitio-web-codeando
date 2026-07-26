@@ -21,13 +21,13 @@
 		activeTag = tag.toLocaleLowerCase();
 	};
 
-	$effect(() => updateMenuSelector({ url: '/blog', color: 'text-cmxgreen' }));
+	$effect(() => updateMenuSelector({ url: '/blog', color: 'color-cmxblack', background: 'bg-cmxgreen' }));
 </script>
 
 <div class="container my-20 pt-hero mx-auto">
 	<div class="container m-auto px-3 mb-8">
 		<div class="my-7">
-			<h1 class="text-5xl text-cmxgreen font-bold">Blog</h1>
+			<h1 class="text-5xl font-bold">Blog</h1>
 		</div>
 		<BlogHero
 			slug={highlightedPost.slug}
