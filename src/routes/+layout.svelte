@@ -1,6 +1,7 @@
 <script>
 	import Footer from '@/components/Footer.svelte';
 	import Navbar from '@/components/Navbar.svelte';
+	import Header from '@/components/Header.svelte';
 	import '../app.css';
 	/**
 	 * @typedef {Object} Props
@@ -24,9 +25,12 @@
   <meta property="og:image" content={image} />
 </svelte:head>
 
+<Header />
+
 <Navbar />
 
-{@render children?.()}
-
+<main id="main">
+	{@render children?.()}
+</main>
 
 <Footer />
